@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
  get '/' => 'home#open'
+ get '/scholar' => 'scholarship#scholar'
+ get '/scholar/form' => 'scholarship#form'
+ get '/take_test' => 'test#take_test' 
+ get '/conc' => 'home#conc'
+ get '/syllabus' => 'test#syllabus'
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
