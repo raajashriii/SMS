@@ -1,7 +1,7 @@
 class Test < ActiveRecord::Base
 def up
     create_table :products do |t|
-      t.integer :No
+      t.string :No
       t.text :Question
  
       t.timestamps

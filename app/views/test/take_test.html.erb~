@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<%= stylesheet_link_tag    "test", :media => "all" %>
+%= stylesheet_link_tag    "test", :media => "all" %>
 </head>
 <body>
 <div class="canvas">

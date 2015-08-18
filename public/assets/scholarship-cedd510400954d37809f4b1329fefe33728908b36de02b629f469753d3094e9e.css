@@ -1,0 +1,4477 @@
+/* line 2, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 11, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 15, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body {
+  line-height: 1;
+}
+
+/* line 19, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 23, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 27, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 32, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 37, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body {
+  -webkit-text-size-adjust: none;
+}
+
+/* Box Model */
+/* line 43, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Containers */
+/* line 51, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 56, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.container.\31 25\25 {
+  width: 100%;
+  max-width: 87.5em;
+  min-width: 70em;
+}
+
+/* line 62, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.container.\37 5\25 {
+  width: 52.5em;
+}
+
+/* line 66, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.container.\35 0\25 {
+  width: 35em;
+}
+
+/* line 70, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.container.\32 5\25 {
+  width: 17.5em;
+}
+
+/* line 74, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.container {
+  width: 70em;
+}
+
+@media screen and (max-width: 1680px) {
+  /* line 80, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 87.5em;
+    min-width: 70em;
+  }
+
+  /* line 86, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\37 5\25 {
+    width: 52.5em;
+  }
+
+  /* line 90, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\35 0\25 {
+    width: 35em;
+  }
+
+  /* line 94, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\32 5\25 {
+    width: 17.5em;
+  }
+
+  /* line 98, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container {
+    width: 70em;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* line 106, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 112.5%;
+    min-width: 90%;
+  }
+
+  /* line 112, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\37 5\25 {
+    width: 67.5%;
+  }
+
+  /* line 116, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\35 0\25 {
+    width: 45%;
+  }
+
+  /* line 120, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\32 5\25 {
+    width: 22.5%;
+  }
+
+  /* line 124, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 132, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 125%;
+    min-width: 100%;
+  }
+
+  /* line 138, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\37 5\25 {
+    width: 75%;
+  }
+
+  /* line 142, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\35 0\25 {
+    width: 50%;
+  }
+
+  /* line 146, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\32 5\25 {
+    width: 25%;
+  }
+
+  /* line 150, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 158, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 125%;
+    min-width: 100%;
+  }
+
+  /* line 164, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\37 5\25 {
+    width: 75%;
+  }
+
+  /* line 168, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\35 0\25 {
+    width: 50%;
+  }
+
+  /* line 172, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\32 5\25 {
+    width: 25%;
+  }
+
+  /* line 176, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 184, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 125%;
+    min-width: 100%;
+  }
+
+  /* line 190, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\37 5\25 {
+    width: 75%;
+  }
+
+  /* line 194, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\35 0\25 {
+    width: 50%;
+  }
+
+  /* line 198, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container.\32 5\25 {
+    width: 25%;
+  }
+
+  /* line 202, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .container {
+    width: 100% !important;
+  }
+}
+/* Grid */
+/* line 210, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row {
+  border-bottom: solid 1px transparent;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 217, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row > * {
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 224, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row:after, .row:before {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+/* line 231, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform > * > :first-child {
+  margin-top: 0;
+}
+
+/* line 235, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform > * > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 239, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\30 \25  > * {
+  padding: 0 0 0 0em;
+}
+
+/* line 243, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\30 \25 {
+  margin: 0 0 -1px 0em;
+}
+
+/* line 247, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\30 \25  > * {
+  padding: 0em 0 0 0em;
+}
+
+/* line 251, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\30 \25 {
+  margin: 0em 0 -1px 0em;
+}
+
+/* line 255, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row > * {
+  padding: 0 0 0 2.5em;
+}
+
+/* line 259, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row {
+  margin: 0 0 -1px -2.5em;
+}
+
+/* line 263, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform > * {
+  padding: 2.5em 0 0 2.5em;
+}
+
+/* line 267, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform {
+  margin: -2.5em 0 -1px -2.5em;
+}
+
+/* line 271, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\32 00\25  > * {
+  padding: 0 0 0 5em;
+}
+
+/* line 275, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\32 00\25 {
+  margin: 0 0 -1px -5em;
+}
+
+/* line 279, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\32 00\25  > * {
+  padding: 5em 0 0 5em;
+}
+
+/* line 283, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\32 00\25 {
+  margin: -5em 0 -1px -5em;
+}
+
+/* line 287, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\31 50\25  > * {
+  padding: 0 0 0 3.75em;
+}
+
+/* line 291, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\31 50\25 {
+  margin: 0 0 -1px -3.75em;
+}
+
+/* line 295, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\31 50\25  > * {
+  padding: 3.75em 0 0 3.75em;
+}
+
+/* line 299, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\31 50\25 {
+  margin: -3.75em 0 -1px -3.75em;
+}
+
+/* line 303, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\35 0\25  > * {
+  padding: 0 0 0 1.25em;
+}
+
+/* line 307, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\35 0\25 {
+  margin: 0 0 -1px -1.25em;
+}
+
+/* line 311, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\35 0\25  > * {
+  padding: 1.25em 0 0 1.25em;
+}
+
+/* line 315, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\35 0\25 {
+  margin: -1.25em 0 -1px -1.25em;
+}
+
+/* line 319, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\32 5\25  > * {
+  padding: 0 0 0 0.625em;
+}
+
+/* line 323, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.\32 5\25 {
+  margin: 0 0 -1px -0.625em;
+}
+
+/* line 327, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\32 5\25  > * {
+  padding: 0.625em 0 0 0.625em;
+}
+
+/* line 331, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.row.uniform.\32 5\25 {
+  margin: -0.625em 0 -1px -0.625em;
+}
+
+/* line 335, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\31 2u, .\31 2u\24 {
+  width: 100%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 341, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\31 1u, .\31 1u\24 {
+  width: 91.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 347, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\31 0u, .\31 0u\24 {
+  width: 83.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 353, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\39 u, .\39 u\24 {
+  width: 75%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 359, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\38 u, .\38 u\24 {
+  width: 66.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 365, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\37 u, .\37 u\24 {
+  width: 58.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 371, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\36 u, .\36 u\24 {
+  width: 50%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 377, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\35 u, .\35 u\24 {
+  width: 41.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 383, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\34 u, .\34 u\24 {
+  width: 33.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 389, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\33 u, .\33 u\24 {
+  width: 25%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 395, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\32 u, .\32 u\24 {
+  width: 16.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 401, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\31 u, .\31 u\24 {
+  width: 8.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 407, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\31 2u\24  + *,
+.\31 1u\24  + *,
+.\31 0u\24  + *,
+.\39 u\24  + *,
+.\38 u\24  + *,
+.\37 u\24  + *,
+.\36 u\24  + *,
+.\35 u\24  + *,
+.\34 u\24  + *,
+.\33 u\24  + *,
+.\32 u\24  + *,
+.\31 u\24  + * {
+  clear: left;
+}
+
+/* line 422, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-11u {
+  margin-left: 91.66667%;
+}
+
+/* line 426, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-10u {
+  margin-left: 83.33333%;
+}
+
+/* line 430, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-9u {
+  margin-left: 75%;
+}
+
+/* line 434, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-8u {
+  margin-left: 66.66667%;
+}
+
+/* line 438, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-7u {
+  margin-left: 58.33333%;
+}
+
+/* line 442, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-6u {
+  margin-left: 50%;
+}
+
+/* line 446, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-5u {
+  margin-left: 41.66667%;
+}
+
+/* line 450, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-4u {
+  margin-left: 33.33333%;
+}
+
+/* line 454, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-3u {
+  margin-left: 25%;
+}
+
+/* line 458, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-2u {
+  margin-left: 16.66667%;
+}
+
+/* line 462, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.\-1u {
+  margin-left: 8.33333%;
+}
+
+@media screen and (max-width: 1680px) {
+  /* line 468, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row > * {
+    padding: 0 0 0 2.5em;
+  }
+
+  /* line 472, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row {
+    margin: 0 0 -1px -2.5em;
+  }
+
+  /* line 476, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform > * {
+    padding: 2.5em 0 0 2.5em;
+  }
+
+  /* line 480, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform {
+    margin: -2.5em 0 -1px -2.5em;
+  }
+
+  /* line 484, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 5em;
+  }
+
+  /* line 488, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -5em;
+  }
+
+  /* line 492, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 5em 0 0 5em;
+  }
+
+  /* line 496, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25 {
+    margin: -5em 0 -1px -5em;
+  }
+
+  /* line 500, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 3.75em;
+  }
+
+  /* line 504, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -3.75em;
+  }
+
+  /* line 508, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 3.75em 0 0 3.75em;
+  }
+
+  /* line 512, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25 {
+    margin: -3.75em 0 -1px -3.75em;
+  }
+
+  /* line 516, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 1.25em;
+  }
+
+  /* line 520, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -1.25em;
+  }
+
+  /* line 524, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 1.25em 0 0 1.25em;
+  }
+
+  /* line 528, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25 {
+    margin: -1.25em 0 -1px -1.25em;
+  }
+
+  /* line 532, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.625em;
+  }
+
+  /* line 536, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.625em;
+  }
+
+  /* line 540, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.625em 0 0 0.625em;
+  }
+
+  /* line 544, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.625em 0 -1px -0.625em;
+  }
+
+  /* line 548, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\28xlarge\29, .\31 2u\24\28xlarge\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 554, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 1u\28xlarge\29, .\31 1u\24\28xlarge\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 560, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 0u\28xlarge\29, .\31 0u\24\28xlarge\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 566, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\39 u\28xlarge\29, .\39 u\24\28xlarge\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 572, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\38 u\28xlarge\29, .\38 u\24\28xlarge\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 578, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\37 u\28xlarge\29, .\37 u\24\28xlarge\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 584, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\36 u\28xlarge\29, .\36 u\24\28xlarge\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 590, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\35 u\28xlarge\29, .\35 u\24\28xlarge\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 596, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\34 u\28xlarge\29, .\34 u\24\28xlarge\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 602, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\33 u\28xlarge\29, .\33 u\24\28xlarge\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 608, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\32 u\28xlarge\29, .\32 u\24\28xlarge\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 614, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 u\28xlarge\29, .\31 u\24\28xlarge\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 620, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\24\28xlarge\29  + *,
+  .\31 1u\24\28xlarge\29  + *,
+  .\31 0u\24\28xlarge\29  + *,
+  .\39 u\24\28xlarge\29  + *,
+  .\38 u\24\28xlarge\29  + *,
+  .\37 u\24\28xlarge\29  + *,
+  .\36 u\24\28xlarge\29  + *,
+  .\35 u\24\28xlarge\29  + *,
+  .\34 u\24\28xlarge\29  + *,
+  .\33 u\24\28xlarge\29  + *,
+  .\32 u\24\28xlarge\29  + *,
+  .\31 u\24\28xlarge\29  + * {
+    clear: left;
+  }
+
+  /* line 635, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-11u\28xlarge\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 639, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-10u\28xlarge\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 643, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-9u\28xlarge\29 {
+    margin-left: 75%;
+  }
+
+  /* line 647, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-8u\28xlarge\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 651, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-7u\28xlarge\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 655, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-6u\28xlarge\29 {
+    margin-left: 50%;
+  }
+
+  /* line 659, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-5u\28xlarge\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 663, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-4u\28xlarge\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 667, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-3u\28xlarge\29 {
+    margin-left: 25%;
+  }
+
+  /* line 671, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-2u\28xlarge\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 675, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-1u\28xlarge\29 {
+    margin-left: 8.33333%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* line 683, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row > * {
+    padding: 0 0 0 2.5em;
+  }
+
+  /* line 687, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row {
+    margin: 0 0 -1px -2.5em;
+  }
+
+  /* line 691, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform > * {
+    padding: 2.5em 0 0 2.5em;
+  }
+
+  /* line 695, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform {
+    margin: -2.5em 0 -1px -2.5em;
+  }
+
+  /* line 699, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 5em;
+  }
+
+  /* line 703, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -5em;
+  }
+
+  /* line 707, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 5em 0 0 5em;
+  }
+
+  /* line 711, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25 {
+    margin: -5em 0 -1px -5em;
+  }
+
+  /* line 715, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 3.75em;
+  }
+
+  /* line 719, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -3.75em;
+  }
+
+  /* line 723, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 3.75em 0 0 3.75em;
+  }
+
+  /* line 727, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25 {
+    margin: -3.75em 0 -1px -3.75em;
+  }
+
+  /* line 731, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 1.25em;
+  }
+
+  /* line 735, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -1.25em;
+  }
+
+  /* line 739, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 1.25em 0 0 1.25em;
+  }
+
+  /* line 743, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25 {
+    margin: -1.25em 0 -1px -1.25em;
+  }
+
+  /* line 747, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.625em;
+  }
+
+  /* line 751, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.625em;
+  }
+
+  /* line 755, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.625em 0 0 0.625em;
+  }
+
+  /* line 759, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.625em 0 -1px -0.625em;
+  }
+
+  /* line 763, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\28large\29, .\31 2u\24\28large\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 769, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 1u\28large\29, .\31 1u\24\28large\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 775, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 0u\28large\29, .\31 0u\24\28large\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 781, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\39 u\28large\29, .\39 u\24\28large\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 787, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\38 u\28large\29, .\38 u\24\28large\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 793, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\37 u\28large\29, .\37 u\24\28large\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 799, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\36 u\28large\29, .\36 u\24\28large\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 805, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\35 u\28large\29, .\35 u\24\28large\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 811, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\34 u\28large\29, .\34 u\24\28large\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 817, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\33 u\28large\29, .\33 u\24\28large\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 823, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\32 u\28large\29, .\32 u\24\28large\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 829, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 u\28large\29, .\31 u\24\28large\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 835, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\24\28large\29  + *,
+  .\31 1u\24\28large\29  + *,
+  .\31 0u\24\28large\29  + *,
+  .\39 u\24\28large\29  + *,
+  .\38 u\24\28large\29  + *,
+  .\37 u\24\28large\29  + *,
+  .\36 u\24\28large\29  + *,
+  .\35 u\24\28large\29  + *,
+  .\34 u\24\28large\29  + *,
+  .\33 u\24\28large\29  + *,
+  .\32 u\24\28large\29  + *,
+  .\31 u\24\28large\29  + * {
+    clear: left;
+  }
+
+  /* line 850, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-11u\28large\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 854, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-10u\28large\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 858, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-9u\28large\29 {
+    margin-left: 75%;
+  }
+
+  /* line 862, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-8u\28large\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 866, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-7u\28large\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 870, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-6u\28large\29 {
+    margin-left: 50%;
+  }
+
+  /* line 874, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-5u\28large\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 878, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-4u\28large\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 882, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-3u\28large\29 {
+    margin-left: 25%;
+  }
+
+  /* line 886, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-2u\28large\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 890, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-1u\28large\29 {
+    margin-left: 8.33333%;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 898, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row > * {
+    padding: 0 0 0 2.5em;
+  }
+
+  /* line 902, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row {
+    margin: 0 0 -1px -2.5em;
+  }
+
+  /* line 906, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform > * {
+    padding: 2.5em 0 0 2.5em;
+  }
+
+  /* line 910, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform {
+    margin: -2.5em 0 -1px -2.5em;
+  }
+
+  /* line 914, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 5em;
+  }
+
+  /* line 918, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -5em;
+  }
+
+  /* line 922, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 5em 0 0 5em;
+  }
+
+  /* line 926, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25 {
+    margin: -5em 0 -1px -5em;
+  }
+
+  /* line 930, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 3.75em;
+  }
+
+  /* line 934, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -3.75em;
+  }
+
+  /* line 938, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 3.75em 0 0 3.75em;
+  }
+
+  /* line 942, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25 {
+    margin: -3.75em 0 -1px -3.75em;
+  }
+
+  /* line 946, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 1.25em;
+  }
+
+  /* line 950, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -1.25em;
+  }
+
+  /* line 954, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 1.25em 0 0 1.25em;
+  }
+
+  /* line 958, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25 {
+    margin: -1.25em 0 -1px -1.25em;
+  }
+
+  /* line 962, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.625em;
+  }
+
+  /* line 966, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.625em;
+  }
+
+  /* line 970, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.625em 0 0 0.625em;
+  }
+
+  /* line 974, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.625em 0 -1px -0.625em;
+  }
+
+  /* line 978, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\28medium\29, .\31 2u\24\28medium\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 984, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 1u\28medium\29, .\31 1u\24\28medium\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 990, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 0u\28medium\29, .\31 0u\24\28medium\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 996, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\39 u\28medium\29, .\39 u\24\28medium\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1002, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\38 u\28medium\29, .\38 u\24\28medium\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1008, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\37 u\28medium\29, .\37 u\24\28medium\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1014, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\36 u\28medium\29, .\36 u\24\28medium\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1020, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\35 u\28medium\29, .\35 u\24\28medium\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1026, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\34 u\28medium\29, .\34 u\24\28medium\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1032, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\33 u\28medium\29, .\33 u\24\28medium\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1038, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\32 u\28medium\29, .\32 u\24\28medium\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1044, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 u\28medium\29, .\31 u\24\28medium\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1050, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\24\28medium\29  + *,
+  .\31 1u\24\28medium\29  + *,
+  .\31 0u\24\28medium\29  + *,
+  .\39 u\24\28medium\29  + *,
+  .\38 u\24\28medium\29  + *,
+  .\37 u\24\28medium\29  + *,
+  .\36 u\24\28medium\29  + *,
+  .\35 u\24\28medium\29  + *,
+  .\34 u\24\28medium\29  + *,
+  .\33 u\24\28medium\29  + *,
+  .\32 u\24\28medium\29  + *,
+  .\31 u\24\28medium\29  + * {
+    clear: left;
+  }
+
+  /* line 1065, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-11u\28medium\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1069, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-10u\28medium\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1073, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-9u\28medium\29 {
+    margin-left: 75%;
+  }
+
+  /* line 1077, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-8u\28medium\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1081, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-7u\28medium\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1085, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-6u\28medium\29 {
+    margin-left: 50%;
+  }
+
+  /* line 1089, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-5u\28medium\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1093, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-4u\28medium\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1097, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-3u\28medium\29 {
+    margin-left: 25%;
+  }
+
+  /* line 1101, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-2u\28medium\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1105, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-1u\28medium\29 {
+    margin-left: 8.33333%;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 1113, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row > * {
+    padding: 0 0 0 2.5em;
+  }
+
+  /* line 1117, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row {
+    margin: 0 0 -1px -2.5em;
+  }
+
+  /* line 1121, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform > * {
+    padding: 2.5em 0 0 2.5em;
+  }
+
+  /* line 1125, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform {
+    margin: -2.5em 0 -1px -2.5em;
+  }
+
+  /* line 1129, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 5em;
+  }
+
+  /* line 1133, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -5em;
+  }
+
+  /* line 1137, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 5em 0 0 5em;
+  }
+
+  /* line 1141, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25 {
+    margin: -5em 0 -1px -5em;
+  }
+
+  /* line 1145, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 3.75em;
+  }
+
+  /* line 1149, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -3.75em;
+  }
+
+  /* line 1153, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 3.75em 0 0 3.75em;
+  }
+
+  /* line 1157, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25 {
+    margin: -3.75em 0 -1px -3.75em;
+  }
+
+  /* line 1161, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 1.25em;
+  }
+
+  /* line 1165, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -1.25em;
+  }
+
+  /* line 1169, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 1.25em 0 0 1.25em;
+  }
+
+  /* line 1173, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25 {
+    margin: -1.25em 0 -1px -1.25em;
+  }
+
+  /* line 1177, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.625em;
+  }
+
+  /* line 1181, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.625em;
+  }
+
+  /* line 1185, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.625em 0 0 0.625em;
+  }
+
+  /* line 1189, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.625em 0 -1px -0.625em;
+  }
+
+  /* line 1193, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\28small\29, .\31 2u\24\28small\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1199, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 1u\28small\29, .\31 1u\24\28small\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1205, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 0u\28small\29, .\31 0u\24\28small\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1211, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\39 u\28small\29, .\39 u\24\28small\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1217, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\38 u\28small\29, .\38 u\24\28small\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1223, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\37 u\28small\29, .\37 u\24\28small\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1229, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\36 u\28small\29, .\36 u\24\28small\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1235, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\35 u\28small\29, .\35 u\24\28small\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1241, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\34 u\28small\29, .\34 u\24\28small\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1247, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\33 u\28small\29, .\33 u\24\28small\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1253, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\32 u\28small\29, .\32 u\24\28small\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1259, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 u\28small\29, .\31 u\24\28small\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1265, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\24\28small\29  + *,
+  .\31 1u\24\28small\29  + *,
+  .\31 0u\24\28small\29  + *,
+  .\39 u\24\28small\29  + *,
+  .\38 u\24\28small\29  + *,
+  .\37 u\24\28small\29  + *,
+  .\36 u\24\28small\29  + *,
+  .\35 u\24\28small\29  + *,
+  .\34 u\24\28small\29  + *,
+  .\33 u\24\28small\29  + *,
+  .\32 u\24\28small\29  + *,
+  .\31 u\24\28small\29  + * {
+    clear: left;
+  }
+
+  /* line 1280, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-11u\28small\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1284, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-10u\28small\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1288, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-9u\28small\29 {
+    margin-left: 75%;
+  }
+
+  /* line 1292, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-8u\28small\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1296, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-7u\28small\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1300, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-6u\28small\29 {
+    margin-left: 50%;
+  }
+
+  /* line 1304, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-5u\28small\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1308, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-4u\28small\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1312, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-3u\28small\29 {
+    margin-left: 25%;
+  }
+
+  /* line 1316, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-2u\28small\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1320, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-1u\28small\29 {
+    margin-left: 8.33333%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 1328, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row > * {
+    padding: 0 0 0 2.5em;
+  }
+
+  /* line 1332, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row {
+    margin: 0 0 -1px -2.5em;
+  }
+
+  /* line 1336, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform > * {
+    padding: 2.5em 0 0 2.5em;
+  }
+
+  /* line 1340, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform {
+    margin: -2.5em 0 -1px -2.5em;
+  }
+
+  /* line 1344, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 5em;
+  }
+
+  /* line 1348, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -5em;
+  }
+
+  /* line 1352, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 5em 0 0 5em;
+  }
+
+  /* line 1356, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 00\25 {
+    margin: -5em 0 -1px -5em;
+  }
+
+  /* line 1360, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 3.75em;
+  }
+
+  /* line 1364, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -3.75em;
+  }
+
+  /* line 1368, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 3.75em 0 0 3.75em;
+  }
+
+  /* line 1372, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\31 50\25 {
+    margin: -3.75em 0 -1px -3.75em;
+  }
+
+  /* line 1376, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 1.25em;
+  }
+
+  /* line 1380, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -1.25em;
+  }
+
+  /* line 1384, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 1.25em 0 0 1.25em;
+  }
+
+  /* line 1388, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\35 0\25 {
+    margin: -1.25em 0 -1px -1.25em;
+  }
+
+  /* line 1392, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.625em;
+  }
+
+  /* line 1396, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.625em;
+  }
+
+  /* line 1400, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.625em 0 0 0.625em;
+  }
+
+  /* line 1404, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.625em 0 -1px -0.625em;
+  }
+
+  /* line 1408, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1414, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 1u\28xsmall\29, .\31 1u\24\28xsmall\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1420, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 0u\28xsmall\29, .\31 0u\24\28xsmall\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1426, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\39 u\28xsmall\29, .\39 u\24\28xsmall\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1432, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\38 u\28xsmall\29, .\38 u\24\28xsmall\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1438, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\37 u\28xsmall\29, .\37 u\24\28xsmall\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1444, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\36 u\28xsmall\29, .\36 u\24\28xsmall\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1450, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\35 u\28xsmall\29, .\35 u\24\28xsmall\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1456, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\34 u\28xsmall\29, .\34 u\24\28xsmall\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1462, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\33 u\28xsmall\29, .\33 u\24\28xsmall\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1468, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\32 u\28xsmall\29, .\32 u\24\28xsmall\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1474, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 u\28xsmall\29, .\31 u\24\28xsmall\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1480, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\31 2u\24\28xsmall\29  + *,
+  .\31 1u\24\28xsmall\29  + *,
+  .\31 0u\24\28xsmall\29  + *,
+  .\39 u\24\28xsmall\29  + *,
+  .\38 u\24\28xsmall\29  + *,
+  .\37 u\24\28xsmall\29  + *,
+  .\36 u\24\28xsmall\29  + *,
+  .\35 u\24\28xsmall\29  + *,
+  .\34 u\24\28xsmall\29  + *,
+  .\33 u\24\28xsmall\29  + *,
+  .\32 u\24\28xsmall\29  + *,
+  .\31 u\24\28xsmall\29  + * {
+    clear: left;
+  }
+
+  /* line 1495, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-11u\28xsmall\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1499, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-10u\28xsmall\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1503, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-9u\28xsmall\29 {
+    margin-left: 75%;
+  }
+
+  /* line 1507, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-8u\28xsmall\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1511, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-7u\28xsmall\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1515, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-6u\28xsmall\29 {
+    margin-left: 50%;
+  }
+
+  /* line 1519, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-5u\28xsmall\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1523, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-4u\28xsmall\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1527, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-3u\28xsmall\29 {
+    margin-left: 25%;
+  }
+
+  /* line 1531, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-2u\28xsmall\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1535, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .\-1u\28xsmall\29 {
+    margin-left: 8.33333%;
+  }
+}
+/* Basic */
+/* line 1543, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+html, body {
+  background: #1c1d26;
+}
+
+/* line 1547, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+
+/* line 1558, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body, input, select, textarea {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 100;
+  line-height: 1.75em;
+}
+
+/* line 1566, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+a {
+  -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  color: #e44c65;
+  text-decoration: none;
+}
+
+/* line 1576, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+a:hover {
+  color: #e44c65 !important;
+  border-bottom-color: transparent;
+}
+
+/* line 1581, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+strong, b {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+/* line 1586, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+em, i {
+  font-style: italic;
+}
+
+/* line 1590, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+p {
+  margin: 0 0 2em 0;
+}
+
+/* line 1594, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+}
+
+/* line 1601, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  border: 0;
+}
+
+/* line 1606, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+}
+
+/* line 1612, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+h3 {
+  font-size: 1.35em;
+  line-height: 1.5em;
+}
+
+/* line 1617, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+/* line 1622, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+h5 {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+/* line 1627, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+
+/* line 1632, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+/* line 1638, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+/* line 1644, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+hr {
+  border: 0;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+  margin: 3em 0;
+}
+
+/* line 1650, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+hr.major {
+  margin: 4em 0;
+}
+
+/* line 1654, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+blockquote {
+  border-left: solid 4px rgba(255, 255, 255, 0.3);
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+/* line 1661, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+code {
+  background: rgba(255, 255, 255, 0.075);
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+
+/* line 1670, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0 2em 0;
+}
+
+/* line 1677, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+pre code {
+  display: block;
+  line-height: 1.75em;
+  padding: 1em 1.5em;
+  overflow-x: auto;
+}
+
+/* line 1684, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.align-left {
+  text-align: left;
+}
+
+/* line 1688, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 1692, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.align-right {
+  text-align: right;
+}
+
+/* Loader */
+@-moz-keyframes spinner-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes spinner-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes spinner-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes spinner-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes spinner-hide {
+  0% {
+    color: rgba(255, 255, 255, 0.15);
+    z-index: 100001;
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  99% {
+    color: #1c1d26;
+    z-index: 100001;
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  }
+  100% {
+    color: #1c1d26;
+    z-index: -1;
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  }
+}
+@-webkit-keyframes spinner-hide {
+  0% {
+    color: rgba(255, 255, 255, 0.15);
+    z-index: 100001;
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  99% {
+    color: #1c1d26;
+    z-index: 100001;
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  }
+  100% {
+    color: #1c1d26;
+    z-index: -1;
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  }
+}
+@-ms-keyframes spinner-hide {
+  0% {
+    color: rgba(255, 255, 255, 0.15);
+    z-index: 100001;
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  99% {
+    color: #1c1d26;
+    z-index: 100001;
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  }
+  100% {
+    color: #1c1d26;
+    z-index: -1;
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  }
+}
+@keyframes spinner-hide {
+  0% {
+    color: rgba(255, 255, 255, 0.15);
+    z-index: 100001;
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  99% {
+    color: #1c1d26;
+    z-index: 100001;
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  }
+  100% {
+    color: #1c1d26;
+    z-index: -1;
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  }
+}
+@-moz-keyframes spinner-rotate {
+  0% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    -moz-transform: scale(1) rotate(360deg);
+    -webkit-transform: scale(1) rotate(360deg);
+    -ms-transform: scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg);
+  }
+}
+@-webkit-keyframes spinner-rotate {
+  0% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    -moz-transform: scale(1) rotate(360deg);
+    -webkit-transform: scale(1) rotate(360deg);
+    -ms-transform: scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg);
+  }
+}
+@-ms-keyframes spinner-rotate {
+  0% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    -moz-transform: scale(1) rotate(360deg);
+    -webkit-transform: scale(1) rotate(360deg);
+    -ms-transform: scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg);
+  }
+}
+@keyframes spinner-rotate {
+  0% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    -moz-transform: scale(1) rotate(360deg);
+    -webkit-transform: scale(1) rotate(360deg);
+    -ms-transform: scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg);
+  }
+}
+@-moz-keyframes overlay-hide {
+  0% {
+    opacity: 1;
+    z-index: 100000;
+  }
+  15% {
+    opacity: 1;
+    z-index: 100000;
+  }
+  99% {
+    opacity: 0;
+    z-index: 100000;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@-webkit-keyframes overlay-hide {
+  0% {
+    opacity: 1;
+    z-index: 100000;
+  }
+  15% {
+    opacity: 1;
+    z-index: 100000;
+  }
+  99% {
+    opacity: 0;
+    z-index: 100000;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@-ms-keyframes overlay-hide {
+  0% {
+    opacity: 1;
+    z-index: 100000;
+  }
+  15% {
+    opacity: 1;
+    z-index: 100000;
+  }
+  99% {
+    opacity: 0;
+    z-index: 100000;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@keyframes overlay-hide {
+  0% {
+    opacity: 1;
+    z-index: 100000;
+  }
+  15% {
+    opacity: 1;
+    z-index: 100000;
+  }
+  99% {
+    opacity: 0;
+    z-index: 100000;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+/* line 2006, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing {
+  text-decoration: none;
+}
+
+/* line 2010, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2019, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing:before {
+  -moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+  -webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+  -ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+  animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+  -moz-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  color: rgba(255, 255, 255, 0.15);
+  content: '\f1ce';
+  cursor: default;
+  display: block;
+  font-size: 2em;
+  height: 2em;
+  left: 50%;
+  line-height: 2em;
+  margin: -1em 0 0 -1em;
+  opacity: 0;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  width: 2em;
+  z-index: -1;
+}
+
+/* line 2045, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing:after {
+  -moz-animation: overlay-hide 1.5s ease-in forwards !important;
+  -webkit-animation: overlay-hide 1.5s ease-in forwards !important;
+  -ms-animation: overlay-hide 1.5s ease-in forwards !important;
+  animation: overlay-hide 1.5s ease-in forwards !important;
+  background: #1c1d26;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+/* line 2062, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing.is-loading:before {
+  -moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
+  -webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
+  -ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
+  animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
+  z-index: 100001;
+}
+
+/* line 2070, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing.is-loading:after {
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+  opacity: 1;
+  z-index: 100000;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+  /* line 2081, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body.landing:before {
+    line-height: 2.025em;
+  }
+}
+/* Section/Article */
+/* line 2089, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+section.special, article.special {
+  text-align: center;
+}
+
+/* line 2093, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+header p {
+  color: #ffffff;
+  position: relative;
+  margin: 0 0 1.5em 0;
+}
+
+/* line 2099, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+header h2 + p {
+  font-size: 1.25em;
+  margin-top: -1em;
+  line-height: 1.75em;
+}
+
+/* line 2105, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+header h3 + p {
+  font-size: 1.1em;
+  margin-top: -0.8em;
+  line-height: 1.75em;
+}
+
+/* line 2111, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+header h4 + p,
+header h5 + p,
+header h6 + p {
+  font-size: 0.9em;
+  margin-top: -0.6em;
+  line-height: 1.5em;
+}
+
+/* line 2119, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+header.major {
+  margin: 0 0 4em 0;
+  position: relative;
+  text-align: center;
+}
+
+/* line 2125, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+header.major:after {
+  background: #e44c65;
+  content: '';
+  display: inline-block;
+  height: 0.2em;
+  max-width: 20em;
+  width: 75%;
+}
+
+/* line 2134, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+footer.major {
+  margin: 4em 0 0 0;
+}
+
+/* Form */
+/* line 2140, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+form {
+  margin: 0 0 2em 0;
+}
+
+/* line 2144, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+label {
+  color: #ffffff;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 0 0 1em 0;
+}
+
+/* line 2152, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.2s ease-in-out;
+  -ms-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+  background: transparent;
+  border-radius: 4px;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* line 2176, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid,
+select:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+/* line 2184, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #e44c65;
+}
+
+/* line 2192, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.select-wrapper {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+/* line 2198, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.select-wrapper:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2207, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.select-wrapper:before {
+  color: rgba(255, 255, 255, 0.3);
+  content: '\f078';
+  display: block;
+  height: 3em;
+  line-height: 3em;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 3em;
+}
+
+/* line 2221, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.select-wrapper select::-ms-expand {
+  display: none;
+}
+
+/* line 2225, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  height: 3em;
+}
+
+/* line 2232, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+textarea {
+  padding: 0.75em 1em;
+}
+
+/* line 2236, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+select option {
+  background-color: #1c1d26;
+  color: #ffffff;
+}
+
+/* line 2241, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+select:focus::-ms-value {
+  background: transparent;
+}
+
+/* line 2245, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: block;
+  float: left;
+  margin-right: -2em;
+  opacity: 0;
+  width: 1em;
+  z-index: -1;
+}
+
+/* line 2259, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 100;
+  padding-left: 2.55em;
+  padding-right: 0.75em;
+  position: relative;
+}
+
+/* line 2272, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2282, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  border-radius: 4px;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  content: '';
+  display: inline-block;
+  height: 1.8em;
+  left: 0;
+  line-height: 1.725em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1.8em;
+}
+
+/* line 2297, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="checkbox"]:checked + label:before,
+input[type="radio"]:checked + label:before {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  content: '\f00c';
+}
+
+/* line 2304, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before {
+  border-color: #e44c65;
+}
+
+/* line 2309, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="checkbox"] + label:before {
+  border-radius: 4px;
+}
+
+/* line 2313, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="radio"] + label:before {
+  border-radius: 100%;
+}
+
+/* line 2317, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1.0;
+}
+
+/* line 2322, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1.0;
+}
+
+/* line 2327, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1.0;
+}
+
+/* line 2332, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1.0;
+}
+
+/* line 2337, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.formerize-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1.0;
+}
+
+/* Box */
+/* line 2344, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.box {
+  border-radius: 4px;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
+
+/* line 2351, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.box > :last-child,
+.box > :last-child > :last-child,
+.box > :last-child > :last-child > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 2357, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.box.alt {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* Icon */
+/* line 2365, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+/* line 2371, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2380, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon > .label {
+  display: none;
+}
+
+/* line 2384, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon.alt {
+  text-decoration: none;
+}
+
+/* line 2388, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon.alt:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2397, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon.alt:before {
+  color: #1c1d26 !important;
+  text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+}
+
+/* line 2402, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon.major {
+  background: #272833;
+  border-radius: 100%;
+  cursor: default;
+  display: inline-block;
+  height: 6em;
+  line-height: 6em;
+  margin: 0 0 2em 0;
+  text-align: center;
+  width: 6em;
+}
+
+/* line 2414, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon.major:before {
+  font-size: 2.25em;
+}
+
+/* line 2418, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon.major.alt {
+  text-decoration: none;
+}
+
+/* line 2422, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon.major.alt:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2431, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.icon.major.alt:before {
+  color: #272833 !important;
+  text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+}
+
+/* Image */
+/* line 2438, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image {
+  border-radius: 4px;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 2446, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("images/overlay.png");
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* line 2458, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image img {
+  border-radius: 4px;
+  display: block;
+}
+
+/* line 2463, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image.left {
+  float: left;
+  margin: 0 1.5em 1em 0;
+  top: 0.25em;
+}
+
+/* line 2469, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image.right {
+  float: right;
+  margin: 0 0 1em 1.5em;
+  top: 0.25em;
+}
+
+/* line 2475, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image.left, .image.right {
+  max-width: 40%;
+}
+
+/* line 2479, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image.left img, .image.right img {
+  width: 100%;
+}
+
+/* line 2483, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image.fit {
+  display: block;
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+/* line 2489, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.image.fit img {
+  width: 100%;
+}
+
+/* List */
+/* line 2495, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ol {
+  list-style: decimal;
+  margin: 0 0 2em 0;
+  padding-left: 1.25em;
+}
+
+/* line 2501, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ol li {
+  padding-left: 0.25em;
+}
+
+/* line 2505, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1em;
+}
+
+/* line 2511, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul li {
+  padding-left: 0.5em;
+}
+
+/* line 2515, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.alt {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 2520, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.alt li {
+  border-top: solid 1px rgba(255, 255, 255, 0.3);
+  padding: 0.5em 0;
+}
+
+/* line 2525, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.alt li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/* line 2530, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 2536, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.icons li {
+  display: inline-block;
+  height: 2.5em;
+  line-height: 2.5em;
+  padding: 0 0.5em;
+}
+
+/* line 2543, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.icons li .icon {
+  font-size: 0.8em;
+}
+
+/* line 2547, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.icons li .icon:before {
+  font-size: 2em;
+}
+
+/* line 2551, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 2557, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+  vertical-align: middle;
+}
+
+/* line 2563, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions li:last-child {
+  padding-right: 0;
+}
+
+/* line 2567, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.small li {
+  padding: 0 0.5em 0 0;
+}
+
+/* line 2571, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.vertical li {
+  display: block;
+  padding: 1em 0 0 0;
+}
+
+/* line 2576, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.vertical li:first-child {
+  padding-top: 0;
+}
+
+/* line 2580, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.vertical li > * {
+  margin-bottom: 0;
+}
+
+/* line 2584, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.vertical.small li {
+  padding: 0.5em 0 0 0;
+}
+
+/* line 2588, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.vertical.small li:first-child {
+  padding-top: 0;
+}
+
+/* line 2592, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.fit {
+  display: table;
+  margin-left: -1em;
+  padding: 0;
+  table-layout: fixed;
+  width: calc(100% + 1em);
+}
+
+/* line 2600, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.fit li {
+  display: table-cell;
+  padding: 0 0 0 1em;
+}
+
+/* line 2605, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.fit li > * {
+  margin-bottom: 0;
+}
+
+/* line 2609, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.fit.small {
+  margin-left: -0.5em;
+  width: calc(100% + 0.5em);
+}
+
+/* line 2614, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+ul.actions.fit.small li {
+  padding: 0 0 0 0.5em;
+}
+
+/* line 2618, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+dl {
+  margin: 0 0 2em 0;
+}
+
+/* Table */
+/* line 2624, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.table-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+/* line 2629, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table {
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+/* line 2634, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table tbody tr {
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  border-left: 0;
+  border-right: 0;
+}
+
+/* line 2640, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+/* line 2644, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table td {
+  padding: 0.75em 0.75em;
+}
+
+/* line 2648, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table th {
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 0 0.75em 0.75em 0.75em;
+  text-align: left;
+}
+
+/* line 2656, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table thead {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+}
+
+/* line 2660, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table tfoot {
+  border-top: solid 1px rgba(255, 255, 255, 0.3);
+}
+
+/* line 2664, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table.alt {
+  border-collapse: separate;
+}
+
+/* line 2668, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table.alt tbody tr td {
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+/* line 2674, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table.alt tbody tr td:first-child {
+  border-left-width: 1px;
+}
+
+/* line 2678, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table.alt tbody tr:first-child td {
+  border-top-width: 1px;
+}
+
+/* line 2682, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table.alt thead {
+  border-bottom: 0;
+}
+
+/* line 2686, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+table.alt tfoot {
+  border-top: 0;
+}
+
+/* Button */
+/* line 2692, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 300;
+  height: 3em;
+  line-height: 3em;
+  padding: 0 2.25em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* line 2720, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"]:hover, input[type="submit"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="button"]:hover,
+input[type="button"]:active,
+.button:hover,
+.button:active {
+  box-shadow: inset 0 0 0 1px #e44c65;
+  color: #e44c65 !important;
+}
+
+/* line 2731, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+.button:active {
+  background-color: rgba(228, 76, 101, 0.15);
+}
+
+/* line 2738, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"].icon:before,
+input[type="reset"].icon:before,
+input[type="button"].icon:before,
+.button.icon:before {
+  margin-right: 0.5em;
+}
+
+/* line 2745, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"].fit,
+input[type="reset"].fit,
+input[type="button"].fit,
+.button.fit {
+  display: block;
+  margin: 0 0 1em 0;
+  width: 100%;
+}
+
+/* line 2754, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"].small,
+input[type="reset"].small,
+input[type="button"].small,
+.button.small {
+  font-size: 0.8em;
+}
+
+/* line 2761, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"].big,
+input[type="reset"].big,
+input[type="button"].big,
+.button.big {
+  font-size: 1.35em;
+}
+
+/* line 2768, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+.button.special {
+  background-color: #e44c65;
+  box-shadow: none;
+  color: #ffffff !important;
+}
+
+/* line 2777, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"].special:hover,
+input[type="reset"].special:hover,
+input[type="button"].special:hover,
+.button.special:hover {
+  background-color: #e76278;
+}
+
+/* line 2784, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"].special:active,
+input[type="reset"].special:active,
+input[type="button"].special:active,
+.button.special:active {
+  background-color: #e13652;
+}
+
+/* line 2791, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+input[type="submit"].disabled, input[type="submit"]:disabled,
+input[type="reset"].disabled,
+input[type="reset"]:disabled,
+input[type="button"].disabled,
+input[type="button"]:disabled,
+.button.disabled,
+.button:disabled {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  cursor: default;
+  opacity: 0.25;
+}
+
+/* Goto Next */
+/* line 2807, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.goto-next {
+  border: 0;
+  bottom: 0;
+  display: block;
+  height: 5em;
+  left: 50%;
+  margin: 0 0 0 -5em;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 10em;
+  white-space: nowrap;
+  width: 10em;
+  z-index: 1;
+}
+
+/* line 2822, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.goto-next:before {
+  background-image: url("images/arrow.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 1.5em;
+  left: 50%;
+  margin: -0.75em 0 0 -1em;
+  position: absolute;
+  top: 50%;
+  width: 2em;
+  z-index: 1;
+}
+
+/* Spotlight */
+/* line 2840, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 2850, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(1) {
+  z-index: 1;
+}
+
+/* line 2854, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(2) {
+  z-index: 2;
+}
+
+/* line 2858, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(3) {
+  z-index: 3;
+}
+
+/* line 2862, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(4) {
+  z-index: 4;
+}
+
+/* line 2866, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(5) {
+  z-index: 5;
+}
+
+/* line 2870, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(6) {
+  z-index: 6;
+}
+
+/* line 2874, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(7) {
+  z-index: 7;
+}
+
+/* line 2878, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(8) {
+  z-index: 8;
+}
+
+/* line 2882, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(9) {
+  z-index: 9;
+}
+
+/* line 2886, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(10) {
+  z-index: 10;
+}
+
+/* line 2890, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(11) {
+  z-index: 11;
+}
+
+/* line 2894, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(12) {
+  z-index: 12;
+}
+
+/* line 2898, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(13) {
+  z-index: 13;
+}
+
+/* line 2902, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(14) {
+  z-index: 14;
+}
+
+/* line 2906, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(15) {
+  z-index: 15;
+}
+
+/* line 2910, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(16) {
+  z-index: 16;
+}
+
+/* line 2914, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(17) {
+  z-index: 17;
+}
+
+/* line 2918, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(18) {
+  z-index: 18;
+}
+
+/* line 2922, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(19) {
+  z-index: 19;
+}
+
+/* line 2926, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:nth-last-of-type(20) {
+  z-index: 20;
+}
+
+/* line 2930, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight:before {
+  background-image: url("images/overlay.png");
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* line 2940, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight .image.main {
+  display: none;
+}
+
+/* line 2944, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight .image.main img {
+  position: relative;
+}
+
+/* line 2948, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight .content {
+  -moz-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -moz-transition: -moz-transform 1s ease, opacity 1s ease;
+  -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
+  -ms-transition: -ms-transform 1s ease, opacity 1s ease;
+  transition: transform 1s ease, opacity 1s ease;
+  background: rgba(23, 24, 32, 0.95);
+  border-style: solid;
+  opacity: 1;
+  position: absolute;
+}
+
+/* line 2963, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight .goto-next {
+  -moz-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -moz-transition: -moz-transform 0.75s ease, opacity 1s ease-in;
+  -webkit-transition: -webkit-transform 0.75s ease, opacity 1s ease-in;
+  -ms-transition: -ms-transform 0.75s ease, opacity 1s ease-in;
+  transition: transform 0.75s ease, opacity 1s ease-in;
+  -moz-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  -ms-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  opacity: 1;
+}
+
+/* line 2979, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.top .content, .spotlight.bottom .content {
+  left: 0;
+  padding: 5.1em 0 3.1em 0;
+  width: 100%;
+}
+
+/* line 2985, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.top .content {
+  border-bottom-width: 0.35em;
+  top: 0;
+}
+
+/* line 2990, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.bottom .content {
+  border-top-width: 0.35em;
+  bottom: 0;
+}
+
+/* line 2995, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.left .content, .spotlight.right .content {
+  height: 101%;
+  padding: 6em 3em;
+  top: 0;
+  width: 28em;
+}
+
+/* line 3002, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.left .content {
+  border-right-width: 0.35em;
+  left: 0;
+}
+
+/* line 3007, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.right .content {
+  border-left-width: 0.35em;
+  right: 0;
+}
+
+/* line 3012, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.style1 .content {
+  border-color: #e44c65;
+}
+
+/* line 3016, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.style2 .content {
+  border-color: #5480f1;
+}
+
+/* line 3020, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.style3 .content {
+  border-color: #39c088;
+}
+
+/* line 3024, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.inactive .content {
+  opacity: 0;
+}
+
+/* line 3028, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.inactive .goto-next {
+  -moz-transform: translate(0, 1.5em);
+  -webkit-transform: translate(0, 1.5em);
+  -ms-transform: translate(0, 1.5em);
+  transform: translate(0, 1.5em);
+  opacity: 0;
+}
+
+/* line 3036, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.inactive.top .content {
+  -moz-transform: translate(0, -5em);
+  -webkit-transform: translate(0, -5em);
+  -ms-transform: translate(0, -5em);
+  transform: translate(0, -5em);
+}
+
+/* line 3043, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.inactive.bottom .content {
+  -moz-transform: translate(0, 5em);
+  -webkit-transform: translate(0, 5em);
+  -ms-transform: translate(0, 5em);
+  transform: translate(0, 5em);
+}
+
+/* line 3050, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.inactive.left .content {
+  -moz-transform: translate(-5em, 0);
+  -webkit-transform: translate(-5em, 0);
+  -ms-transform: translate(-5em, 0);
+  transform: translate(-5em, 0);
+}
+
+/* line 3057, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.spotlight.inactive.right .content {
+  -moz-transform: translate(5em, 0);
+  -webkit-transform: translate(5em, 0);
+  -ms-transform: translate(5em, 0);
+  transform: translate(5em, 0);
+}
+
+/* line 3064, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.is-touch .spotlight {
+  background-attachment: scroll;
+}
+
+/* Wrapper */
+/* line 3070, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper {
+  padding: 6em 0 4em 0;
+}
+
+/* line 3074, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.style2 {
+  background: #e44c65;
+}
+
+/* line 3078, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.style2 input[type="text"]:focus,
+.wrapper.style2 input[type="password"]:focus,
+.wrapper.style2 input[type="email"]:focus,
+.wrapper.style2 select:focus,
+.wrapper.style2 textarea:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 3086, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.style2 input[type="submit"]:hover, .wrapper.style2 input[type="submit"]:active,
+.wrapper.style2 input[type="reset"]:hover,
+.wrapper.style2 input[type="reset"]:active,
+.wrapper.style2 input[type="button"]:hover,
+.wrapper.style2 input[type="button"]:active,
+.wrapper.style2 .button:hover,
+.wrapper.style2 .button:active {
+  background-color: rgba(255, 255, 255, 0.075) !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
+  color: #ffffff !important;
+}
+
+/* line 3098, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.style2 input[type="submit"]:active,
+.wrapper.style2 input[type="reset"]:active,
+.wrapper.style2 input[type="button"]:active,
+.wrapper.style2 .button:active {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* line 3105, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.style2 input[type="submit"].special,
+.wrapper.style2 input[type="reset"].special,
+.wrapper.style2 input[type="button"].special,
+.wrapper.style2 .button.special {
+  background-color: #ffffff;
+  color: #e44c65 !important;
+}
+
+/* line 3113, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.style2 input[type="submit"].special:hover, .wrapper.style2 input[type="submit"].special:active,
+.wrapper.style2 input[type="reset"].special:hover,
+.wrapper.style2 input[type="reset"].special:active,
+.wrapper.style2 input[type="button"].special:hover,
+.wrapper.style2 input[type="button"].special:active,
+.wrapper.style2 .button.special:hover,
+.wrapper.style2 .button.special:active {
+  background-color: rgba(255, 255, 255, 0.075) !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
+  color: #ffffff !important;
+}
+
+/* line 3125, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.style2 input[type="submit"].special:active,
+.wrapper.style2 input[type="reset"].special:active,
+.wrapper.style2 input[type="button"].special:active,
+.wrapper.style2 .button.special:active {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* line 3132, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.fade-down > .container {
+  -moz-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -moz-transition: -moz-transform 1s ease, opacity 1s ease;
+  -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
+  -ms-transition: -ms-transform 1s ease, opacity 1s ease;
+  transition: transform 1s ease, opacity 1s ease;
+  opacity: 1;
+}
+
+/* line 3144, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.fade-down.inactive > .container {
+  -moz-transform: translate(0, -1em);
+  -webkit-transform: translate(0, -1em);
+  -ms-transform: translate(0, -1em);
+  transform: translate(0, -1em);
+  opacity: 0;
+}
+
+/* line 3152, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.fade-up > .container {
+  -moz-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -moz-transition: -moz-transform 1s ease, opacity 1s ease;
+  -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
+  -ms-transition: -ms-transform 1s ease, opacity 1s ease;
+  transition: transform 1s ease, opacity 1s ease;
+  opacity: 1;
+}
+
+/* line 3164, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.fade-up.inactive > .container {
+  -moz-transform: translate(0, 1em);
+  -webkit-transform: translate(0, 1em);
+  -ms-transform: translate(0, 1em);
+  transform: translate(0, 1em);
+  opacity: 0;
+}
+
+/* line 3172, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.fade > .container {
+  -moz-transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+  -ms-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+
+/* line 3180, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.wrapper.fade.inactive > .container {
+  opacity: 0;
+}
+
+/* Dropotron */
+/* line 3186, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.dropotron {
+  background: rgba(39, 40, 51, 0.965);
+  border-radius: 4px;
+  box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
+  list-style: none;
+  margin-top: calc(-0.25em + 1px);
+  min-width: 12em;
+  padding: 0.25em 0;
+}
+
+/* line 3196, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.dropotron > li {
+  border-top: solid 1px rgba(255, 255, 255, 0.035);
+  padding: 0;
+}
+
+/* line 3201, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.dropotron > li a, .dropotron > li span {
+  border: 0;
+  color: rgba(255, 255, 255, 0.75);
+  display: block;
+  padding: 0.1em 1em;
+  text-decoration: none;
+}
+
+/* line 3209, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.dropotron > li:first-child {
+  border-top: 0;
+}
+
+/* line 3213, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.dropotron > li.active > a, .dropotron > li.active > span {
+  color: #e44c65;
+}
+
+/* line 3217, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.dropotron.level-0 {
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+/* line 3222, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+.dropotron.level-0:before {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #272833;
+  content: '';
+  display: block;
+  height: 1em;
+  position: absolute;
+  right: 1.5em;
+  top: -0.5em;
+  width: 1em;
+}
+
+/* line 3237, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing .dropotron.level-0 {
+  margin-top: 0;
+}
+
+/* Header */
+/* line 3243, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#page-wrapper {
+  padding-top: 3.5em;
+}
+
+/* line 3247, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header {
+  background: rgba(39, 40, 51, 0.965);
+  box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+  cursor: default;
+  height: 3.5em;
+  left: 0;
+  line-height: 3.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* line 3260, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header h1 {
+  height: inherit;
+  left: 1.25em;
+  line-height: inherit;
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+
+/* line 3269, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header nav {
+  position: absolute;
+  right: 1em;
+  top: 0;
+}
+
+/* line 3275, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header nav ul {
+  margin: 0;
+}
+
+/* line 3279, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header nav ul li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+/* line 3284, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header nav ul li a, #header nav ul li span {
+  border: 0;
+  color: inherit;
+  display: inline-block;
+  height: inherit;
+  line-height: inherit;
+  outline: 0;
+}
+
+/* line 3293, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header nav ul li a.button, #header nav ul li span.button {
+  height: 2em;
+  line-height: 2em;
+  padding: 0 1.25em;
+}
+
+/* line 3299, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
+  margin-right: 0.5em;
+}
+
+/* line 3303, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header nav ul li.active > a, #header nav ul li.active > span {
+  color: #e44c65;
+}
+
+/* line 3307, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#header nav ul li > ul {
+  display: none;
+}
+
+/* line 3311, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing #page-wrapper {
+  padding-top: 0;
+}
+
+/* line 3315, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.landing #header {
+  background: transparent;
+  box-shadow: none;
+  position: absolute;
+}
+
+/* Banner */
+/* line 3323, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner {
+  background-attachment: fixed;
+  background-color: #272833;
+  background-image: url("../../images/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  z-index: 21;
+}
+
+/* line 3336, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner:before {
+  content: '';
+  display: inline-block;
+  height: 100vh;
+  vertical-align: middle;
+  width: 1%;
+}
+
+/* line 3344, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner:after {
+  background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
+  background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
+  background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
+  background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* line 3358, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner .content {
+  display: inline-block;
+  margin-right: 1%;
+  max-width: 95%;
+  padding: 6em;
+  position: relative;
+  text-align: right;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+/* line 3369, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner .content header {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 3374, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner .content header h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* line 3379, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner .content header p {
+  margin: 0.5em 0 0 0;
+  top: 0;
+}
+
+/* line 3384, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner .content .image {
+  border-radius: 100%;
+  display: inline-block;
+  height: 18em;
+  margin-left: 3em;
+  vertical-align: middle;
+  width: 18em;
+}
+
+/* line 3393, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#banner .content .image img {
+  border-radius: 100%;
+  display: block;
+  width: 100%;
+}
+
+/* line 3399, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+body.is-touch #banner {
+  background-attachment: scroll;
+}
+
+/* Footer */
+/* line 3405, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#footer {
+  background: #272833;
+  padding: 6em 0;
+  text-align: center;
+}
+
+/* line 3411, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#footer .icons .icon.alt {
+  text-decoration: none;
+}
+
+/* line 3415, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#footer .icons .icon.alt:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 3424, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#footer .icons .icon.alt:before {
+  color: #272833 !important;
+  text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* line 3429, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#footer .copyright {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
+  line-height: 1em;
+  margin: 2em 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 3438, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#footer .copyright li {
+  border-left: solid 1px rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  list-style: none;
+  margin-left: 1.5em;
+  padding-left: 1.5em;
+}
+
+/* line 3446, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#footer .copyright li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* line 3452, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#footer .copyright li a {
+  color: inherit;
+}
+
+/* XLarge */
+@media screen and (max-width: 1680px) {
+  /* Basic */
+  /* line 3462, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body, input, select, textarea {
+    font-size: 13pt;
+  }
+}
+/* Large */
+@media screen and (max-width: 1280px) {
+  /* Basic */
+  /* line 3474, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body, input, select, textarea {
+    font-size: 11.5pt;
+  }
+
+  /* Spotlight */
+  /* line 3480, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight.top .content {
+    padding: 3.825em 0 1.825em 0;
+  }
+
+  /* line 3484, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight.bottom .content {
+    padding: 3.825em 0 2.95em 0;
+  }
+
+  /* line 3488, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight.left .content, .spotlight.right .content {
+    padding: 4.5em 2.5em;
+    width: 25em;
+  }
+
+  /* Wrapper */
+  /* line 3495, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .wrapper {
+    padding: 4.5em 0 2.5em 0;
+  }
+
+  /* Dropotron */
+  /* line 3501, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .dropotron.level-0 {
+    font-size: 1em;
+  }
+
+  /* Banner */
+  /* line 3507, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .content {
+    padding: 4.5em;
+  }
+
+  /* Footer */
+  /* line 3513, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #footer {
+    padding: 4.5em 0;
+  }
+}
+/* Medium */
+@media screen and (max-width: 980px) {
+  /* Basic */
+  /* line 3525, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+
+  /* Spotlight */
+  /* line 3531, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight {
+    background-attachment: scroll;
+    height: auto;
+  }
+
+  /* line 3536, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight .image.main {
+    display: block;
+    margin: 0;
+    max-height: 40vh;
+    overflow: hidden;
+  }
+
+  /* line 3543, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight .content {
+    background-color: #1c1d26;
+    border-width: 0 !important;
+    border-top-width: 0.35em !important;
+    bottom: auto !important;
+    left: auto !important;
+    padding: 4.5em 2.5em 2.5em 2.5em !important;
+    position: relative;
+    right: auto !important;
+    text-align: center;
+    top: auto !important;
+    width: 100% !important;
+  }
+
+  /* line 3557, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight .goto-next {
+    display: none;
+  }
+
+  /* Wrapper */
+  /* line 3563, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .wrapper {
+    padding: 4.5em 2.5em 2.5em 2.5em;
+  }
+
+  /* Banner */
+  /* line 3569, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner {
+    background-attachment: scroll;
+  }
+
+  /* line 3573, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .goto-next {
+    height: 7em;
+  }
+
+  /* line 3577, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .content {
+    padding: 9em 0;
+    text-align: center;
+  }
+
+  /* line 3582, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .content header {
+    display: block;
+    margin: 0 0 2em 0;
+    text-align: center;
+  }
+
+  /* line 3588, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .content .image {
+    margin: 0;
+  }
+
+  /* Footer */
+  /* line 3594, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #footer {
+    padding: 4.5em 0;
+  }
+}
+/* Small */
+/* line 3602, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+#navPanel, #titleBar {
+  display: none;
+}
+
+@media screen and (max-width: 736px) {
+  /* Basic */
+  /* line 3610, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* line 3614, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+
+  /* line 3618, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  h2 {
+    font-size: 1.5em;
+  }
+
+  /* line 3622, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  h3 {
+    font-size: 1.2em;
+  }
+
+  /* line 3626, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  h4 {
+    font-size: 1em;
+  }
+
+  /* Section/Article */
+  /* line 3632, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  header p br {
+    display: none;
+  }
+
+  /* line 3636, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  header h2 + p {
+    font-size: 1em;
+  }
+
+  /* line 3640, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  header h3 + p {
+    font-size: 1em;
+  }
+
+  /* line 3644, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  header h4 + p,
+  header h5 + p,
+  header h6 + p {
+    font-size: 0.9em;
+  }
+
+  /* line 3650, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  header.major {
+    margin: 0 0 2em 0;
+  }
+
+  /* Goto Next */
+  /* line 3656, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .goto-next:before {
+    height: 0.8em;
+    margin: -0.4em 0 0 -0.6em;
+    width: 1.2em;
+  }
+
+  /* Spotlight */
+  /* line 3664, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight {
+    box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+  }
+
+  /* line 3668, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight .image.main {
+    max-height: 60vh;
+  }
+
+  /* line 3672, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight .content {
+    border-top-width: 0.2em !important;
+    padding: 3.25em 1.5em 1.25em 1.5em !important;
+  }
+
+  /* Wrapper */
+  /* line 3679, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .wrapper {
+    padding: 3.25em 1.5em 1.25em 1.5em;
+  }
+
+  /* Header */
+  /* line 3685, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #header {
+    display: none;
+  }
+
+  /* Banner */
+  /* line 3691, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner {
+    box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+    min-height: calc(100vh - 44px);
+  }
+
+  /* line 3696, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner:before {
+    height: calc(100vh - 44px);
+  }
+
+  /* line 3700, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .content {
+    padding: 4.0625em 1.5em 4.875em 1.5em;
+  }
+
+  /* line 3704, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .content header h2 {
+    font-size: 1.5em;
+  }
+
+  /* line 3708, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .content .image {
+    height: 9em;
+    width: 9em;
+  }
+
+  /* Off-Canvas Navigation */
+  /* line 3715, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #page-wrapper {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transition: -moz-transform 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    padding-bottom: 1px;
+    padding-top: 44px !important;
+  }
+
+  /* line 3728, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #titleBar {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transition: -moz-transform 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    display: block;
+    height: 44px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+    background: #272833;
+    box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  }
+
+  /* line 3748, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #titleBar .title {
+    color: #ffffff;
+    display: block;
+    font-weight: 300;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  /* line 3757, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #titleBar .title a {
+    color: inherit;
+    border: 0;
+  }
+
+  /* line 3762, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #titleBar .toggle {
+    text-decoration: none;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 90px;
+    outline: 0;
+    border: 0;
+  }
+
+  /* line 3773, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #titleBar .toggle:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+  }
+
+  /* line 3782, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #titleBar .toggle:before {
+    background: #e44c65;
+    color: rgba(255, 255, 255, 0.5);
+    content: '\f0c9';
+    display: block;
+    font-size: 18px;
+    height: 44px;
+    left: 0;
+    line-height: 44px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 54px;
+  }
+
+  /* line 3797, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translateX(-275px);
+    -webkit-transform: translateX(-275px);
+    -ms-transform: translateX(-275px);
+    transform: translateX(-275px);
+    -moz-transition: -moz-transform 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    width: 275px;
+    z-index: 10002;
+    background: #181920;
+    padding: 0.75em 1.25em;
+  }
+
+  /* line 3822, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link {
+    border: 0;
+    border-top: solid 1px rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.75);
+    display: block;
+    height: 3em;
+    line-height: 3em;
+    text-decoration: none;
+  }
+
+  /* line 3832, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link:hover {
+    color: inherit !important;
+  }
+
+  /* line 3836, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link:first-child {
+    border-top: 0;
+  }
+
+  /* line 3840, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link.depth-0 {
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  /* line 3845, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link .indent-1 {
+    display: inline-block;
+    width: 1.25em;
+  }
+
+  /* line 3850, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link .indent-2 {
+    display: inline-block;
+    width: 2.5em;
+  }
+
+  /* line 3855, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link .indent-3 {
+    display: inline-block;
+    width: 3.75em;
+  }
+
+  /* line 3860, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link .indent-4 {
+    display: inline-block;
+    width: 5em;
+  }
+
+  /* line 3865, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #navPanel .link .indent-5 {
+    display: inline-block;
+    width: 6.25em;
+  }
+
+  /* line 3870, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body.navPanel-visible #page-wrapper {
+    -moz-transform: translateX(275px);
+    -webkit-transform: translateX(275px);
+    -ms-transform: translateX(275px);
+    transform: translateX(275px);
+  }
+
+  /* line 3877, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body.navPanel-visible #titleBar {
+    -moz-transform: translateX(275px);
+    -webkit-transform: translateX(275px);
+    -ms-transform: translateX(275px);
+    transform: translateX(275px);
+  }
+
+  /* line 3884, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body.navPanel-visible #navPanel {
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* Footer */
+  /* line 3893, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #footer {
+    padding: 3.25em 1.5em;
+  }
+}
+/* XSmall */
+@media screen and (max-width: 480px) {
+  /* Basic */
+  /* line 3905, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  html, body {
+    min-width: 320px;
+  }
+
+  /* line 3909, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+
+  /* List */
+  /* line 3915, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  ul.actions {
+    margin: 0 0 2em 0;
+  }
+
+  /* line 3919, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  ul.actions li {
+    display: block;
+    padding: 1em 0 0 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 3926, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  ul.actions li:first-child {
+    padding-top: 0;
+  }
+
+  /* line 3930, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  ul.actions li > * {
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  /* line 3935, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  ul.actions.small li {
+    padding: 0.5em 0 0 0;
+  }
+
+  /* line 3939, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  ul.actions.small li:first-child {
+    padding-top: 0;
+  }
+
+  /* Button */
+  /* line 3945, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"],
+  .button {
+    padding: 0;
+  }
+
+  /* Spotlight */
+  /* line 3954, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight .image.main {
+    max-height: 50vh;
+  }
+
+  /* line 3958, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .spotlight .content {
+    padding: 3em 1.25em 1em 1.25em !important;
+  }
+
+  /* Wrapper */
+  /* line 3964, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  .wrapper {
+    padding: 3em 1.25em 1em 1.25em;
+  }
+
+  /* Banner */
+  /* line 3970, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #banner .content {
+    padding: 3em 1.5625em 5.25em 1.5625em;
+  }
+
+  /* Footer */
+  /* line 3976, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #footer {
+    padding: 3em 1.25em;
+  }
+
+  /* line 3980, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #footer .copyright {
+    line-height: inherit;
+  }
+
+  /* line 3984, /home/raajashri/SMS/app/assets/stylesheets/scholarship.scss */
+  #footer .copyright li {
+    border-left: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}

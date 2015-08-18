@@ -1,13 +1,4 @@
-
-
-
-
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>SWIFT girls</title>
@@ -25,11 +16,11 @@
 					
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="contact.html">contact </a></li>
-							<li><a href="about.html">about</a></li>
+							<li><a href="scholarship.html">Scholarship</a></li>
+							<li><a href="test.html">Test </a></li>
+							<li><a href="syllabus.html">Syllabus</a></li>
 							<li>
-								<a href="#">Layouts</a>
+								<a href="#">Home</a>
 								<ul>
 									<li><a href="left-sidebar.html">Left Sidebar</a></li>
 									<li><a href="right-sidebar.html">Right Sidebar</a></li>
@@ -55,11 +46,11 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>S.W.I.F.T Women In Freedom Tecnology</h2>
-							<p>This organisation is come under FSFTN(Free Software Foundation Tamilnadu).<br />
-							To motivate and engage WOMEN participants in Free Software Technology.</p>
+							<h2>Scholars Bay</h2>
+							<p>We help you walk through your way<br />
+							To reach the stars of your desire.</p>
 						</header>
-						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+						<span class="image"><img src="scholarship_img.jpg" alt="" /></span>
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
