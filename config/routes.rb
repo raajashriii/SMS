@@ -5,6 +5,7 @@ Rails.application.routes.draw do
  get '/take_test' => 'test#take_test' 
  get '/conc' => 'home#conc'
  get '/syllabus' => 'test#syllabus'
+ get '/new' => 'devise/sessions#create '
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
