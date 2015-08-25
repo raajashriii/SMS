@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
  get '/' => 'home#open'
  get '/scholar' => 'scholarship#scholar'
+ get '/scholar/sub' => 'scholarship#sub'
  get '/scholar/form' => 'scholarship#form'
  get '/take_test' => 'test#take_test' 
  get '/conc' => 'home#conc'

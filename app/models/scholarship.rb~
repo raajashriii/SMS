@@ -1,0 +1,5 @@
+class Scholarship < ActiveRecord::Base
+Scholarship = User.new
+Scholarship.save  # => false
+Scholarship.save!
+end
